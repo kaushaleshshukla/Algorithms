@@ -40,3 +40,7 @@ class DSU{
             return sz[node];
         }
 };
+
+// Problem : https://codeforces.com/contest/1213/problem/G
+// Solution : https://codeforces.com/contest/1213/submission/59814218
+
