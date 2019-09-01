@@ -74,5 +74,5 @@ class MO{
 };
 
 // Source : https://cp-algorithms.com/data_structures/sqrt_decomposition.html
-// Problems : https://www.hackerrank.com/contests/university-codesprint-4/challenges/unique-art
+// Problem : https://www.hackerrank.com/contests/university-codesprint-4/challenges/unique-art
 
