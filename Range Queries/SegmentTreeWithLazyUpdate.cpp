@@ -66,3 +66,7 @@ class SegmentTree{
             return merge(data1,data2);
         }
 };
+
+// Problem : https://codeforces.com/contest/1208/problem/D
+// Solution : https://codeforces.com/contest/1208/submission/60055831
+
