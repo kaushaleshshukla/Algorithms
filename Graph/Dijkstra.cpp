@@ -25,4 +25,27 @@ void dijkstra(int source){
     }
 }
 
+// Dijkstra with path
 
+vector<int> dist,path;
+vector< vector< pair<int,int> > > adj;
+
+void dijkstra(int source){
+    priority_queue< pair<int,int> , vector< pair<int,int> > , greater< pair<int,int> > > q;
+    q.push({0,source});
+    dist[source]=0;
+    path[source]=-1;
+    while(!q.empty()){
+        auto cur = q.top();
+        q.pop();
+        if(cur.first!=dist[cur.second])
+            continue;
+        for(auto next : adj[cur.second]){
+            if(dist[next.first] > cur.first + next.second){
+                dist[next.first] = cur.first + next.second;
+                path[next.first] = cur.second;
+                q.push(make_pair(dist[next.first], next.first));
+            }
+        }
+    }
+}
