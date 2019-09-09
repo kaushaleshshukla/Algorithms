@@ -27,8 +27,8 @@ void BellmanFords(int source){
     }
 }
 
-
-// Bellman Fords with path
+/* ----------------------------------------------------------------------------------------------------------------------------------------
+ Bellman Fords with path */
 
 struct edge{
     int u,v,cost;
@@ -61,7 +61,8 @@ void BellmanFords(int source){
     }
 }
 
-// Finding negative cycle 
+/* ------------------------------------------------------------------------------------------------------------------------------------
+Finding negative cycle */
 
 struct edge{
     int u,v,cost;
