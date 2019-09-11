@@ -1,4 +1,4 @@
-// Strongly connected component
+// Strongly connected component in directed graph
 
 vector< vector<int> > adj, radj; 
 vector< bool > vis;
