@@ -49,7 +49,6 @@ class MO{
 			for(int i=0;i<q;i++){
 				int left = queries[i].first.first;
 				int right = queries[i].first.second;
-				// trace3(left,right,cur_ans);
 				while(cur_l>left){
 					cur_l--;
 					add(cur_l);
@@ -66,7 +65,6 @@ class MO{
 					remove(cur_r);
 					cur_r--;
 				}
-				// trace1(cur_ans);
 				res[queries[i].second] = cur_ans;
 			}
 			return res;
