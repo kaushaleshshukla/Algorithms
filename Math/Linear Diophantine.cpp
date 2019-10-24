@@ -33,6 +33,12 @@ bool find_any_solution(int a, int b, int c, int &x0, int &y0, int &g) {
 }
 
 // Source : https://cp-algorithms.com/algebra/linear-diophantine-equation.html
+// Source : https://cp-algorithms.com/algebra/linear_congruence_equation.html
 
 // Problem : https://codeforces.com/contest/633/problem/A
 // Solution : https://codeforces.com/contest/633/submission/62640906
+
+// Problem : https://codeforces.com/contest/1244/problem/C
+// Solution : https://codeforces.com/contest/1244/submission/63272323
+
+
