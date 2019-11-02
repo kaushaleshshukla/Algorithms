@@ -7,7 +7,7 @@ class SegmentTree{
         vector<U> inp;  // Initialize this 'inp' vector in main function
         SegmentTree(int n){
             seg.resize(4*n);
-            v.resize(n+1);
+            inp.resize(n+1);
         }
         T merge(T data1, T data2){
             // Edit here
