@@ -1,14 +1,13 @@
 // Topological sort O(v+e)
 
 int n; // number of nodes
-vector< set<int> > adj;
+vector< vector<int> > adj;
 vector<bool> vis;
 vector<int> topological;
 
 void dfs(int node){
     vis[node] = true;
     for(int x: adj[node]){
-        x = -x;
         if(!vis[x])
             dfs(x);
     }
